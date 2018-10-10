@@ -1,23 +1,23 @@
 package ants;
 
 public class Wood {
-    public static int LENGTH;
-    public static int START;
-    public static int END;
+    protected int length;
+    protected int start;
+    protected int end;
 
     public Wood(int length) {
-        START = 0;
-        LENGTH = length;
-        END = LENGTH;
+        start = 0;
+        this.length = length;
+        end = length;
     }
 
-    public static void setLENGTH(int LENGTH) {
-        Wood.LENGTH = LENGTH;
+    public void setLength(int length1) {
+        length = length1;
     }
 
     public void isOut(Ant ant) {
         // 判断蚂蚁是否爬出木杆
-        if (ant.position <= this.START || ant.position > this.END) {
+        if (ant.position <= this.start || ant.position > this.end) {
             ant.isAlive = false;
         }
     }

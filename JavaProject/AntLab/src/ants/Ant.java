@@ -1,7 +1,7 @@
 package ants;
 
 public class Ant {
-    public int velocity;
+    private int velocity;
     protected int position;
     protected boolean direction;  // true向右, false向左
     protected boolean isAlive;

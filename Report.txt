@@ -1,0 +1,65 @@
+1、代码简述：
+   有一根30厘米的细木杆，第3、8、11、16、25厘米这5个位置上各有1只蚂蚁。木杆不能同时通过2只蚂蚁。
+   开始时，蚂蚁的头朝左还是朝右是任意的，它们只会朝前走或调头，但不会后退。
+   当任意两只蚂蚁碰头时，两只蚂蚁会同时调头朝相反方向走。假设蚂蚁们每秒钟可以走1厘米的距离。
+   所有蚂蚁方向排列组合共32种情况，如图User Interface.png所示，可输入1-32表示所选情况。
+   程序将演示5只蚂蚁的爬行过程，并计算所有蚂蚁离开木杆所用的时间。
+
+2、代码详述：
+   (1)PlayRoom类：controlJPanel和paintActiveAntsJPanel画出了游戏UI界面的两大框架。
+      设置有启动游戏CreepingGame类的入口。设置定时器，用于设定蚂蚁爬行每一步的时间间隔。
+      pos数组：对5只蚂蚁初始位置的设置。
+      dirs数组：存储5只蚂蚁初始方向32种组合。
+      number_dir变量，setDir函数：根据输入的情况代号，初始化5只蚂蚁的方向。
+      isSuspend变量：控制游戏进行/暂停。
+   (2)CreepGame类：游戏规则。
+      定义situation函数：蚂蚁爬行，传入参数为情况代号，初始化方向后开始模拟爬行。
+      checkCollision方法：判断蚂蚁是否相撞。
+      time变量：每一种情况的总计时间；count变量：游戏进行的时间戳。
+      pole二维数组：存储每一个时间戳5只蚂蚁对应的位置（一维是count，二维是对应的位置）。
+      ants_direction二维数组：存储每一个时间戳5只蚂蚁对应的方向（一维是count，二维是对应的方向）。
+      isGame变量：T/F对应游戏是否正在进行或结束。
+   (3)Wood类：木杆。
+      isOut判断蚂蚁是否爬出杆
+   (4)Ant类：蚂蚁。
+      velocity、position、direction、isAlive（存活状态）四大属性，爬出木杆认为该蚂蚁不再存活。
+      changeDirection方法在两只蚂蚁相撞时调用，爬行Creep方法。
+
+3、“1st commit”为进行代码静态分析之前提交的版本。
+
+4、Ant.java中issue如图Ant_java.png所示：
+   (1)类Ant中变量velocity不应设置为public，而应设为private，再提供get和set方法。
+
+5、CreepGame.java中issue如图CreepGame_java.png所示：
+   (1)方法situation的代码过长、复杂度过高。
+   (2-4)静态成员ants[]、wood不应该在构造函数里被赋值。
+   (5)if语句里嵌套了另一条if语句，应该合并成一条if语句。
+   (6)类CreepGame中变量isGame不应设置为public。
+   (7)公共静态成员ants应该加上final,也就是public static final。
+   (8)变量ants同(6)。
+   (9)数组ants_direction不符合驼峰命名法的规范。
+   (10)公共静态成员wood同(7)。
+   (11)变量wood同(6)。
+   (12)ants多变域不应该为public static，而应为protected。
+   修改了(12)以后，同时解决了(2)(3)(7)(8)；修改(9)的同时，解决了PlayRoom里部分问题。
+
+6、Wood.java中issue如图Wood_java.png所示：
+   (1-3)类Wood中变量LENGTH、START、END不应设置为public。
+   (4-6)静态成员START、LENGTH、END不应该在构造函数里被赋值。
+   (7-8)静态成员START、END应与类、静态方法相联系。
+   (9-15)公共静态成员LENGTH、START、END应该加上final,也就是public static final；还应遵守驼峰命名法。
+
+7、PlayRoom.java中issue如图PlayRoom_java.jpg所示：
+   (1)子类width字段不应该private父类的非private字段。
+   (2)一个对象序列化时，按照Java默认的序列化规则，对象内的所有成员都要序列化，即这些Class都必须实现Serializable。
+      所以两种改法，一是Address实现Serializable接口，二是对Person中的address成员加上transient标记。
+   (3)不要用实例方法改变静态成员,静态变量一般是通过同步的静态方法来改变。
+   (4-5)字符串不应该重复，如果多次用到同一字符串，可将该字符串定义为字符串常量，再引用。
+   (6)方法paint代码过长、复杂度过高。
+   (7)类的继承不应该过深。
+   (8-9)for循环的结果条件不能是变量,而应该是常量，此处理解为k不应该定义为局部变量。
+   (10)不应在同一行定义多个变量。
+   (11-18)number_dirs、init_Directions、jButton_Pause、jButton_Restart等不符合驼峰命名法。
+   (17)不应该直接调用e.printStackTrace(),而是用Loggers来处理(就是打Log)。
+
+

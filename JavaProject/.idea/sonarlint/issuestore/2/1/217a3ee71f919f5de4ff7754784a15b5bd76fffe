@@ -1,0 +1,7 @@
+
+Œ squid:ForLoopCounterChangedCheckÅ"XRefactor the code in order to not assign to this loop counter from within the loop body.(ˆÔøº8¦º¶âå,
+qsquid:S3776¿"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¶øÂÁ8¦º¶âå,
+‘ squid:ForLoopCounterChangedCheckÑ"XRefactor the code in order to not assign to this loop counter from within the loop body.(­–„úÿÿÿÿ8¦º¶âå,
+osquid:CommentedOutCodeLineò"<This block of commented-out lines of code should be removed.(ø«Ãëøÿÿÿÿ8¦º¶âå,
+Ysquid:S2209ñ"5Change this instance-reference to a static reference.(ıªÀùÿÿÿÿ8¦º¶âå,
+Nsquid:S1948"+Make "creepGame" transient or serializable.(‹âäúÿÿÿÿ8şŸÌå,
