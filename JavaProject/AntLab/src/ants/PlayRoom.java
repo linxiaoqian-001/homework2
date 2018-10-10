@@ -6,20 +6,25 @@ import java.awt.Graphics;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.logging.Logger;
+
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.Timer;
 
+import java.util.logging.Logger;
+
 public class PlayRoom extends Frame {
+
     private static final long serialVersionUID = 1L;
-    protected static boolean[][] dirs = new boolean[32][5];
-    protected static int[] pos = {3, 8, 11, 16, 25};
+
     private ControlJPanel controlJPanel = null;
     private PaintActiveAntsJPanel paintActiveAntsJPanel = null;
+
     private boolean isSuspend = false;// isSuspend是否暂停
+    protected static boolean[][] dirs = new boolean[32][5];
+    protected static int[] pos = {3, 8, 11, 16, 25};
 
     private static final String STR_1 = "Start";
     private static final String STR_2 = "Pause";
@@ -29,17 +34,6 @@ public class PlayRoom extends Frame {
 
     transient CreepGame creepGame = new CreepGame();
     protected int numberDirs;
-
-    // 排列组合初始化方向
-    public static void initDirections() {
-        for (int i = 0; i < dirs.length; i++) {
-            int sum = i;
-            for (int j = dirs[i].length - 1; j >= 0; j--) {
-                dirs[i][j] = sum % 2 != 0;
-                sum /= 2;
-            }
-        }
-    }
 
     public PlayRoom() {
         super("动态演示蚂蚁爬杆行为");
@@ -54,6 +48,23 @@ public class PlayRoom extends Frame {
         setVisible(true);
     }
 
+    // 排列组合初始化方向
+    public static void initDirections() {
+        for (int i = 0; i < dirs.length; i++) {
+            int sum = i;
+            for (int j = dirs[i].length - 1; j >= 0; j--) {
+                dirs[i][j] = sum % 2 != 0;
+                sum /= 2;
+            }
+        }
+    }
+
+    public void setDirs(int numberDirs) {
+        for (int i = 0; i < creepGame.ants.length; i++) {
+            creepGame.ants[i].setDirection(dirs[numberDirs][i]);
+        }
+    }
+
     // 控制面板
     public class ControlJPanel extends JPanel implements ActionListener {
         private static final long serialVersionUID = 1L;
@@ -65,7 +76,6 @@ public class PlayRoom extends Frame {
 
         public ControlJPanel() {
             this.setLayout(null);// 绝对定位
-            // new 对象
             jButtonPause = new JButton(STR_1);// 暂停
             jButtonRestart = new JButton("Restart");// 暂停
             textSituation = new JTextField(20);
@@ -89,7 +99,6 @@ public class PlayRoom extends Frame {
             textTimeLabel.setBounds(550, 20, 100, 30);
             textCountLabel.setBounds(650, 20, 100, 30);
             setJLabel();
-
             situation.setBounds(450, 20, 80, 30);
             displayDirs.setBounds(450, 65, 580, 30);
             // jButton_verify加监听
@@ -157,12 +166,6 @@ public class PlayRoom extends Frame {
         }
     }
 
-    public void setDirs(int numberDirs) {
-        for (int i = 0; i < creepGame.ants.length; i++) {
-            creepGame.ants[i].setDirection(dirs[numberDirs][i]);
-        }
-    }
-
     // PaintActiveAntsJPanel 画活动的蚂蚁
     public class PaintActiveAntsJPanel extends JPanel implements ActionListener {
         private static final long serialVersionUID = 1L;
@@ -209,7 +212,7 @@ public class PlayRoom extends Frame {
                         creepGame.ants[k].direction = false;
                     }
                     k++;
-                    // 绘制图片（如果宽高传的不是图片原本的宽高, 则图片将会适当缩放绘制）
+                    // 绘制图片
                     g2d.drawImage(image, 10 + j * width1, 30, width1, width1, this);
                 }
             }

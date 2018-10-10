@@ -1,6 +1,7 @@
 package ants;
 
 public class Ant {
+
     private int velocity;
     protected int position;
     protected boolean direction;  // true向右, false向左
@@ -15,8 +16,16 @@ public class Ant {
         this.position = position;
     }
 
+    public int getPosition() {
+        return position;
+    }
+
     public void setDirection(boolean direction) {
         this.direction = direction;
+    }
+
+    public boolean getDirection() {
+        return direction;
     }
 
     public void setAlive(boolean isAlive) {

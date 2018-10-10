@@ -1,18 +1,15 @@
 package ants;
 
 public class Wood {
+
     protected int length;
     protected int start;
     protected int end;
 
-    public Wood(int length) {
+    public Wood(int length1) {
         start = 0;
-        this.length = length;
-        end = length;
-    }
-
-    public void setLength(int length1) {
         length = length1;
+        end = length1;
     }
 
     public void isOut(Ant ant) {

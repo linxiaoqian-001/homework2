@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5909ab98-9b92-4986-859e-230a2c7c06a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/217a3ee71f919f5de4ff7754784a15b5bd76fffe" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/217a3ee71f919f5de4ff7754784a15b5bd76fffe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AntLab/AntLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AntLab/AntLab.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AntLab/src/ants/Ant.java" beforeDir="false" afterPath="$PROJECT_DIR$/AntLab/src/ants/Ant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AntLab/src/ants/CreepGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/AntLab/src/ants/CreepGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AntLab/src/ants/PlayRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/AntLab/src/ants/PlayRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AntLab/src/ants/Wood.java" beforeDir="false" afterPath="$PROJECT_DIR$/AntLab/src/ants/Wood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AntLab/ants/Ant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AntLab/ants/Ant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AntLab/ants/CreepGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AntLab/ants/CreepGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AntLab/ants/PlayRoom$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AntLab/ants/PlayRoom$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AntLab/ants/PlayRoom$ControlJPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AntLab/ants/PlayRoom$ControlJPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AntLab/ants/PlayRoom$PaintActiveAntsJPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AntLab/ants/PlayRoom$PaintActiveAntsJPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AntLab/ants/PlayRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AntLab/ants/PlayRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AntLab/ants/Wood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AntLab/ants/Wood.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,28 +53,36 @@
     <session id="948603651">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="3" />
-          <entry key="project.open.time.18" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.18" value="3" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="470" />
+          <entry key="java" value="956" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="470" />
+          <entry key="JAVA" value="956" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.file.types.open" />
-      <usages-collector id="statistics.file.extensions.open" />
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="5" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
     </session>
   </component>
@@ -77,8 +94,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AntLab/src/ants/CreepGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AntLab/test/ants/CreepGameTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -87,21 +113,37 @@
         <entry file="file://$PROJECT_DIR$/AntLab/src/ants/Ant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AntLab/test/ants/AntTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AntLab/src/ants/PlayRoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AntLab/src/ants/PlayRoom.java">
+        <entry file="file://$PROJECT_DIR$/AntLab/test/ants/PlayRoomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="195" column="52" lean-forward="true" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#9033#9163#0" expanded="true" />
-                <element signature="e#9162#9163#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="229">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -109,13 +151,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AntLab/src/ants/Wood.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AntLab/test/ants/WoodTest.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -123,10 +181,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AntLab/src/ants/Ant.java" />
-        <option value="$PROJECT_DIR$/AntLab/src/ants/Wood.java" />
+        <option value="$PROJECT_DIR$/AntLab/test/ants/CreepGameTest.java" />
         <option value="$PROJECT_DIR$/AntLab/src/ants/CreepGame.java" />
+        <option value="$PROJECT_DIR$/AntLab/src/ants/Ant.java" />
+        <option value="$PROJECT_DIR$/AntLab/test/ants/AntTest.java" />
         <option value="$PROJECT_DIR$/AntLab/src/ants/PlayRoom.java" />
+        <option value="$PROJECT_DIR$/AntLab/src/ants/Wood.java" />
+        <option value="$PROJECT_DIR$/AntLab/test/ants/WoodTest.java" />
+        <option value="$PROJECT_DIR$/AntLab/test/ants/PlayRoomTest.java" />
       </list>
     </option>
   </component>
@@ -136,10 +198,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="672" />
-    <option name="y" value="1" />
-    <option name="width" value="715" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="9" />
+    <option name="width" value="735" />
     <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -166,6 +227,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ants" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AntLab" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AntLab" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="ants" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -175,13 +247,30 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539155949308" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539182344264" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-4.12.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="SonarLintApp" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ants" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -195,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PlayRoomTest">
     <configuration name="PlayRoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ants.PlayRoom" />
       <module name="AntLab" />
@@ -209,9 +298,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AntLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ants.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ants" />
+      <option name="MAIN_CLASS_NAME" value="ants.AntTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreepGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AntLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ants.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ants" />
+      <option name="MAIN_CLASS_NAME" value="ants.CreepGameTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AntLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ants.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ants" />
+      <option name="MAIN_CLASS_NAME" value="ants.PlayRoomTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WoodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AntLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ants.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ants" />
+      <option name="MAIN_CLASS_NAME" value="ants.WoodTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PlayRoom" />
+      <item itemvalue="JUnit.AntTest" />
+      <item itemvalue="JUnit.WoodTest" />
+      <item itemvalue="JUnit.CreepGameTest" />
+      <item itemvalue="JUnit.PlayRoomTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayRoomTest" />
+        <item itemvalue="JUnit.CreepGameTest" />
         <item itemvalue="Application.PlayRoom" />
+        <item itemvalue="JUnit.WoodTest" />
+        <item itemvalue="JUnit.AntTest" />
       </list>
     </recent_temporary>
   </component>
@@ -232,11 +388,45 @@
       <workItem from="1539098710879" duration="3593000" />
       <workItem from="1539146155062" duration="1290000" />
       <workItem from="1539147499869" duration="1658000" />
+      <workItem from="1539173452158" duration="6624000" />
+      <workItem from="1539182391731" duration="170000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="WoodTest - 2018.10.10 at 21h 56m 18s.xml">
+      <configuration name="WoodTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreepGameTest - 2018.10.10 at 22h 22m 13s.xml">
+      <configuration name="CreepGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreepGameTest - 2018.10.10 at 22h 23m 11s.xml">
+      <configuration name="CreepGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreepGameTest - 2018.10.10 at 22h 24m 15s.xml">
+      <configuration name="CreepGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreepGameTest - 2018.10.10 at 22h 25m 46s.xml">
+      <configuration name="CreepGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreepGameTest - 2018.10.10 at 22h 26m 11s.xml">
+      <configuration name="CreepGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreepGameTest - 2018.10.10 at 22h 30m 55s.xml">
+      <configuration name="CreepGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayRoomTest - 2018.10.10 at 22h 36m 42s.xml">
+      <configuration name="PlayRoomTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayRoomTest - 2018.10.10 at 22h 37m 49s.xml">
+      <configuration name="PlayRoomTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayRoomTest - 2018.10.10 at 22h 38m 58s.xml">
+      <configuration name="PlayRoomTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16608000" />
+    <option name="totallyTimeSpent" value="25405000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,10 +438,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="9" width="735" height="738" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860725" visible="true" weight="0.17473525" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860725" weight="0.35703704" />
       <window_info id="Structure" order="1" sideWeight="0.5013928" side_tool="true" weight="0.17019667" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -260,15 +449,15 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43064517" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20645161" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27317882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31129032" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" x="-13" y="473" width="1322" height="201" id="SonarLint" order="10" visible="true" weight="0.38709676" />
+      <window_info anchor="bottom" x="-13" y="473" width="1322" height="201" id="SonarLint" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -290,38 +479,153 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AntLab/src/ants/CreepGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AntLab/test/ants/CreepGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AntLab/src/ants/Ant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AntLab/src/ants/Wood.java">
+    <entry file="file://$PROJECT_DIR$/AntLab/test/ants/AntTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AntLab/src/ants/CreepGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AntLab/src/ants/PlayRoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="195" column="52" lean-forward="true" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
+        <state relative-caret-position="722">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#9033#9163#0" expanded="true" />
-            <element signature="e#9162#9163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AntLab/src/ants/Wood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AntLab/test/ants/WoodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AntLab/test/ants/PlayRoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AntLab</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>hamcrest-core-1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

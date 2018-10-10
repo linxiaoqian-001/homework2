@@ -1,14 +1,15 @@
 package ants;
 
 public class CreepGame {
-    protected boolean isGame;
-    protected Ant[] ants;
 
-    protected int[][] pole = new int[29][32];// 最长时间27，杆长30，就有30个位置。
+    protected Wood wood;
+    protected boolean isGame;
     protected int count = 0;// 记录蚂蚁运动的位置
     protected int time = 0;// 每一种情况运行的时间
+
+    protected Ant[] ants;
+    protected int[][] pole = new int[29][32];// 最长时间27，杆长30，就有30个位置。
     protected int[][] antsDirection = new int[29][5];
-    protected Wood wood;
 
     public CreepGame() {
         this.isGame = true;
@@ -22,10 +23,8 @@ public class CreepGame {
     public void checkCollision() {
         // 相撞或者相遇
         for (int j = 0; j < ants.length - 1; j++) {
-            if ((ants[j].isAlive && ants[j + 1].isAlive
-                    && ants[j].direction && !ants[j + 1].direction)
-                    && (ants[j + 1].position == ants[j].position
-                    || (ants[j + 1].position - ants[j].position) == 1)) {
+            if ((ants[j].isAlive && ants[j + 1].isAlive && ants[j].direction && !ants[j + 1].direction)
+                    && (ants[j + 1].position == ants[j].position || (ants[j + 1].position - ants[j].position) == 1)) {
                 ants[j].changeDirection();
                 ants[j + 1].changeDirection();
             }
@@ -34,11 +33,9 @@ public class CreepGame {
 
     public void initialize(int i) {
         // 初始化
-        for (int j = 0; j < pole.length; j++) {
-            for (int k = 0; k < pole[j].length; k++) {
+        for (int j = 0; j < pole.length; j++)
+            for (int k = 0; k < pole[j].length; k++)
                 pole[j][k] = 0;
-            }
-        }
         for (int j = 0; j < ants.length; j++) {
             ants[j].setAlive(true);
             ants[j].setPosition(PlayRoom.pos[j]);
@@ -74,9 +71,5 @@ public class CreepGame {
             // 是否结束
             if (deadAnt == 5) break;
         }
-    }
-
-    public void setGameOver() {
-        this.isGame = false;
     }
 }

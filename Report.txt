@@ -26,6 +26,8 @@
       changeDirection方法在两只蚂蚁相撞时调用，爬行Creep方法。
 
 3、“1st commit”为进行代码静态分析之前提交的版本。
+   “2nd commit"为静态分析修改之后的版本。
+   “3rd commit”为动态测试的代码。
 
 4、Ant.java中issue如图Ant_java.png所示：
    (1)类Ant中变量velocity不应设置为public，而应设为private，再提供get和set方法。
@@ -60,6 +62,6 @@
    (8-9)for循环的结果条件不能是变量,而应该是常量，此处理解为k不应该定义为局部变量。
    (10)不应在同一行定义多个变量。
    (11-18)number_dirs、init_Directions、jButton_Pause、jButton_Restart等不符合驼峰命名法。
-   (17)不应该直接调用e.printStackTrace(),而是用Loggers来处理(就是打Log)。
+   (17)不应该直接调用e.printStackTrace(),而是用Loggers来处理(就是打印Log)。
 
 
